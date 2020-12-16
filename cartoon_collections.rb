@@ -19,7 +19,7 @@ def find_valid_calls(planeteer_calls)
   
   calls = planeteer_calls & valid_calls
   if calls.empty?
-    return "Earth!"
+    return nil 
   else
     calls.join
   end
