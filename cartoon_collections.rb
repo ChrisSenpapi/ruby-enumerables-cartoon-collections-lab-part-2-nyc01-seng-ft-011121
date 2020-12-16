@@ -19,4 +19,5 @@ def find_valid_calls(planeteer_calls)
   
   calls = planeteer_calls.grep(/^(Earth|Wind|Fire|Water|Heart)$/)
   if calls.length > 0 
+    
 end
