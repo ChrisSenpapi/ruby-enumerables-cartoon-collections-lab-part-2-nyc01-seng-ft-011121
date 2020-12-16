@@ -21,5 +21,5 @@ def find_valid_calls(planeteer_calls)
   if calls.empty?
     return nil
   else
-    
+    calls.join
 end
